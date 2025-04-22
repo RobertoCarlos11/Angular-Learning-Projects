@@ -1,0 +1,15 @@
+<div class="{{optionClicked ? 'disabled' : ''}} {{question.id}}" *ngIf="question">
+    <h3>Question {{ question.id}}</h3>
+    <p>{{question.question}}</p>
+    @for (option of question.options; track $index) {
+    <div class="option {{question.id}}">
+        <input type="radio" 
+        name="option-{{question.id}}" 
+        [value]="option" 
+        (ngModelChange)="SendAnswer(option)" 
+        [(ngModel)]="optionClicked"
+        />
+            {{option.option}}
+    </div>
+    }
+</div>

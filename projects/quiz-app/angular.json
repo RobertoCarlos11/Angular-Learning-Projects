@@ -6,28 +6,28 @@
     "Quiz-app": {
       "projectType": "application",
       "schematics": {},
-      "root": "projects/quiz-app",
-      "sourceRoot": "projects/quiz-app/src",
+      "root": "",
+      "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/quiz-app",
-            "index": "projects/quiz-app/src/index.html",
-            "browser": "projects/quiz-app/src/main.ts",
+            "index": "src/index.html",
+            "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
-            "tsConfig": "projects/quiz-app/tsconfig.app.json",
+            "tsConfig": "tsconfig.app.json",
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/quiz-app/public"
+                "input": "public"
               }
             ],
             "styles": [
-              "projects/quiz-app/src/styles.css"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -77,15 +77,15 @@
               "zone.js",
               "zone.js/testing"
             ],
-            "tsConfig": "projects/quiz-app/tsconfig.spec.json",
+            "tsConfig": "tsconfig.spec.json",
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/quiz-app/public"
+                "input": "public"
               }
             ],
             "styles": [
-              "projects/quiz-app/src/styles.css"
+              "src/styles.css"
             ],
             "scripts": []
           }

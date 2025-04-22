@@ -1,0 +1,9 @@
+<main>
+@for (question of Questions; track $index) {
+    <app-question [question]="question" (UserAnswer)="checkAnswer($event)" [resetSignal]="resetCounter"/>
+}
+
+<button (click)="submitQuiz()">Submit Quiz</button>
+<button (click)="resetQuiz()">Reset Quiz</button>
+<button routerLink="/home">Back to Home</button>
+</main>
