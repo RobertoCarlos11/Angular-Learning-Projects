@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AngularLearningProjects
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
@@ -57,3 +58,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# Angular-Learning-Projects
+Repository filled with basic projects made by me to understand the capabilities that the framework Angular has
+>>>>>>> f2c7afddf3ad6df5ba652d02dc8a2e08320edf3b
